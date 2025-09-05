@@ -48,3 +48,19 @@
   width: 200px;
   border-radius: 8px;
 }
+
+
+.caixa1 {
+  border: 2px solid #00ff66;   /* borda verde */
+  padding: 15px;               /* espaço interno */
+  display: flex;               /* coloca imagem e texto lado a lado */
+  gap: 15px;                   /* espaço entre imagem e texto */
+  max-width: 1500px;            /* largura máxima da caixa */
+  background-color: #001a1a;   /* cor de fundo (opcional) */
+  border-radius: 10px;         /* cantos arredondados */
+}
+
+.caixa1 img {
+  width: 200px;
+  border-radius: 8px;
+}
