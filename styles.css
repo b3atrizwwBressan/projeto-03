@@ -47,7 +47,8 @@
   background-color: #001a1a;   /* cor de fundo (opcional) */
   border-radius: 10px;
   margin: 25px; /* cria espaço externo em volta da caixa */         /* cantos arredondados */
-  text-align: center;
+  justify-content: center; /* horizontal */
+  align-items: center;
 }
 
 .caixa img {
@@ -62,11 +63,12 @@
   display: inline-flex;             /* coloca imagem e texto lado a lado */
   gap: 15px;                   /* espaço entre imagem e texto */
   max-width: 1500px; 
-     flex: 1 1 300px;            /* largura máxima da caixa */
+  flex: 1 1 300px;            /* largura máxima da caixa */
   background-color: #001a1a;   /* cor de fundo (opcional) */
   border-radius: 10px; 
   margin: 25px; /* cria espaço externo em volta da caixa */        /* cantos arredondados */
-  text-align: center;
+  justify-content: center; /* horizontal */
+  align-items: center;
 }
 
 .caixa1 img {
