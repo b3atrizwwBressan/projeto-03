@@ -39,12 +39,12 @@
   padding: 15px;               /* espaço interno */
   display: flex;               /* coloca imagem e texto lado a lado */
   gap: 15px;                   /* espaço entre imagem e texto */
-  max-width: 1200px;            /* largura máxima da caixa */
+  max-width: 1500px;            /* largura máxima da caixa */
   background-color: #001a1a;   /* cor de fundo (opcional) */
   border-radius: 10px;         /* cantos arredondados */
 }
 
 .caixa img {
-  width: 150px;
+  width: 200px;
   border-radius: 8px;
 }
