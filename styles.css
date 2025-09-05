@@ -42,7 +42,8 @@
   gap: 15px;                   /* espaço entre imagem e texto */
   max-width: 1500px;            /* largura máxima da caixa */
   background-color: #001a1a;   /* cor de fundo (opcional) */
-  border-radius: 10px;         /* cantos arredondados */
+  border-radius: 10px;
+  margin: 20px; /* cria espaço externo em volta da caixa */         /* cantos arredondados */
 }
 
 .caixa img {
@@ -58,7 +59,8 @@
   gap: 15px;                   /* espaço entre imagem e texto */
   max-width: 1500px;            /* largura máxima da caixa */
   background-color: #001a1a;   /* cor de fundo (opcional) */
-  border-radius: 10px;         /* cantos arredondados */
+  border-radius: 10px; 
+  margin: 20px; /* cria espaço externo em volta da caixa */        /* cantos arredondados */
 }
 
 .caixa1 img {
