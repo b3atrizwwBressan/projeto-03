@@ -8,12 +8,14 @@
        color: rgb(136, 212, 13);
        font-family: Arial, Helvetica, sans-serif;
        font-size: 18px;
+       text-align: center;
        
      }
 
      h1 {
       color: beige;
       font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
      }
      header {
       border-bottom: 8px groove  #00ff66;
