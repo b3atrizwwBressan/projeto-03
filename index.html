@@ -42,6 +42,23 @@
       
      }
 
+     .container {
+      display: flex;
+      align-items: center; /* centraliza verticalmente */
+      gap: 15px; /* espaço entre imagem e texto */
+      max-width: 600px; /* só pra limitar a largura */
+    }
+
+    .container img {
+      width: 150px;  /* controla o tamanho da imagem */
+      flex-shrink: 0; /* evita que a imagem encolha demais */
+      border-radius: 8px;
+    }
+
+    .container p {
+      margin: 0; /* remove espaço extra */
+      line-height: 1.5;
+    }
      
     
      
