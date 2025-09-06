@@ -60,15 +60,17 @@
 
 .caixa1 {
   border: 2px solid #00ff66;   /* borda verde */             /* espaço interno */
-  display: inline-flex;             /* coloca imagem e texto lado a lado */
+  display: inline-flex;   
+  display: flex;
+  flex-direction: column; /* ou row se quiser lado a lado */
+  align-items: center;    /* centraliza horizontalmente */
+  justify-content: center; /* centraliza verticalmente se precisar */          /* coloca imagem e texto lado a lado */
   gap: 15px;                   /* espaço entre imagem e texto */
   max-width: 1500px; 
   flex: 1 1 300px;            /* largura máxima da caixa */
   background-color: #001a1a;   /* cor de fundo (opcional) */
   border-radius: 10px; 
   margin: 25px; /* cria espaço externo em volta da caixa */        /* cantos arredondados */
-  justify-content: center; /* horizontal */
-  align-items: center;
   padding: 20px;
   box-sizing: border-box;
 }
