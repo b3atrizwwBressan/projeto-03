@@ -96,10 +96,18 @@ header h1 {
 }
 
 .caixa2 {
-  align-items: center;
-  margin: 25px;
-  padding: 20px;
+    display: flex;
+    justify-content: center; /* centraliza no eixo horizontal */
+    gap: 20px; /* espaço entre as imagens */
+    flex-wrap: wrap; /* quebra linha se a tela for pequena */
 }
+
+.caixa2 img {
+    border: 3px solid red; /* só para visualizar */
+    border-radius: 10px;
+    
+
+    }
 
 
 
