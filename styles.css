@@ -37,7 +37,7 @@
 }
 
 header h1 {
-    
+     flex: 1; /* ocupa o espaço no meio */
     text-align: center;
     margin: 0;
 }
