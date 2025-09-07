@@ -109,5 +109,9 @@ header h1 {
 
     }
 
-
+h1, h2 {
+  text-align: center;   /* centraliza o texto na horizontal */
+  margin: 0 auto;       /* garante que a caixa fique no meio */
+  display: block;       /* garante comportamento de bloco */
+}
 
