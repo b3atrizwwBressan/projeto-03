@@ -37,11 +37,7 @@
     margin: 15px;
 }
 
-header h1 {
-     flex: 1; /* ocupa o espaço no meio */
-    text-align: center;
-    margin: 0;
-}
+
      ol {
       color: rgb(220, 255, 0);
       font-family: Arial, Helvetica, sans-serif;
