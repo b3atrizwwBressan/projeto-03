@@ -98,7 +98,7 @@ header h1 {
 .caixa2 {
     display: flex;
     justify-content: center; /* centraliza no eixo horizontal */
-    gap: 10px; /* espaço entre as imagens */
+    gap: 40px; /* espaço entre as imagens */
     flex-wrap: wrap; /* quebra linha se a tela for pequena */
 }
 
