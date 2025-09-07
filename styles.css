@@ -5,7 +5,7 @@
     
 
      p {
-       color: rgb(133, 113, 49);
+       color: rgb(247, 245, 242);
        font-family: Arial, Helvetica, sans-serif;
        font-size: 18px;
        text-align: center;
@@ -39,7 +39,7 @@
 
 
      ol {
-      color: yellow;
+      color: rgb(255, 255, 255);
       font-family: Arial, Helvetica, sans-serif;
       
       
@@ -47,7 +47,7 @@
 
 
      img {
-  border: 4px solid #00ff66;
+  border: 4px solid #ffffff;
   border-radius: 15px; /* arredonda os cantos */
   background-color: #ffffff;   /* cor de fundo (opcional) */
 
@@ -101,7 +101,7 @@
 }
 
 .caixa2 img {
-    border: 7px solid #fdfdfd; /* só para visualizar */
+    border: 7px solid #00ff66; /* só para visualizar */
     border-radius: 10px;
     
 
