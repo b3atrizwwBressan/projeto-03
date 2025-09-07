@@ -24,7 +24,8 @@
        display: flex;
        align-items: center;
        gap: 10px;
-       justify-content: center;
+       justify-content: space-between; /* joga logo pra esquerda e título pro centro/direita */
+    padding: 10px 20px;
       
      }
 
@@ -32,6 +33,12 @@
      header img {
     width: 80px; /* ajuste o tamanho da logo */
     height: auto;
+}
+
+header h1 {
+    flex: 1; /* ocupa o espaço no meio */
+    text-align: center;
+    margin: 0;
 }
      ol {
       color: rgb(136, 212, 13);
