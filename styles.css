@@ -119,8 +119,8 @@ h1, h2 {
   display: block;       /* garante comportamento de bloco */
 }
 
-hr.gradient {
-  border: none;
-  height: 4px;
-  background: linear-gradient(to right, rgb(35, 253, 101), rgb(43, 255, 0));
+hr {
+  border: none;             /* Remove a borda padrão */
+  height: 3px;              /* Define a espessura */
+  background-color: #00ff66;    /* Cor que você quer */
 }
