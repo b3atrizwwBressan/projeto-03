@@ -122,5 +122,5 @@ h1, h2 {
 hr {
   border: none;             /* Remove a borda padrão */
   height: 6px;              /* Define a espessura */
-  background: linear-gradient(to right, white, #00ff66);   /* Cor que você quer */
+  background: linear-gradient(to right, white, #00ff66, #001a1a;);   /* Cor que você quer */
 }
