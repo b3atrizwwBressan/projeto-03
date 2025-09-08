@@ -119,3 +119,7 @@ h1, h2 {
   display: block;       /* garante comportamento de bloco */
 }
 
+hr {
+  color: #00ff66
+  border: 3px; 
+}
