@@ -121,6 +121,6 @@ h1, h2 {
 
 hr {
   border: none;             /* Remove a borda padrão */
-  height: 5px;              /* Define a espessura */
-  background-color: #001a1a;    /* Cor que você quer */
+  height: 6px;              /* Define a espessura */
+  background-color: #b8b8b8;    /* Cor que você quer */
 }
